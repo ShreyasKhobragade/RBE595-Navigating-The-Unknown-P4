@@ -1,0 +1,13 @@
+# Ignore python caches and logs
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Ignore heavy deep learning weights, models, and point clouds
+*.pt
+*.pth
+*.onnx
+*.ply
+.DS_Store
+Data_Generation/Blender/Final Output/
+Data_Generation/Blender/Generated Data/
